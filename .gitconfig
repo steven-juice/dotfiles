@@ -1,1 +1,12 @@
-/Users/stevenmann/.gitconfig
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	unstage = reset HEAD --
+	track = !sh -c 'git branch --set-upstream-to origin/$1' -
+[user]
+	name = Steven Mann
+[pull]
+	ff = only
