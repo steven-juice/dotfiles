@@ -25,7 +25,7 @@ ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -108,7 +108,7 @@ alias ls='ls -F'
 alias ll="ls -l | sort | awk 'NF==9 { print $9 }'"
 
 # View ZSH config
-alias zshconfig="code ~/.zshrc"
+alias zshconfig="code -r ~/.zshrc"
 
 # Change directory aliases
 alias dev="cd ~/dev"
